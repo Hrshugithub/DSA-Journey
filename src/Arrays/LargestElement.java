@@ -1,3 +1,39 @@
+//# Largest Element in an Array
+//
+//## Problem Statement
+//Given an integer array `nums`, find and return the largest element present in the array.
+//
+//### Example
+//
+//Input:
+//nums = [3, 2, 1, 5, 6, 4]
+//
+//Output:6
+//
+//
+//## Approach
+//1. Sort the array using the Bubble Sort algorithm.
+//2. After sorting, the largest element will be present at the last index of the array.
+//3. Return the element at the last index of the sorted array.
+//
+//## Algorithm
+//1. Traverse the array multiple times.
+//2. Compare adjacent elements.
+//3. Swap them if they are in the wrong order.
+//        4. Continue the process until the array becomes sorted in ascending order.
+//5. Return the last element of the array.
+//
+//## Time Complexity
+//O(n²)
+//
+//## Space Complexity
+//O(1)
+//
+//## Java Code
+//This solution uses the Bubble Sort algorithm to sort the array in ascending order and then returns the last element as the largest element in the array.
+//
+//## Tags
+//#Java #DSA #Arrays #BubbleSort
 package Arrays;
 
 public class LargestElement {
