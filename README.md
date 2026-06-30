@@ -30,3 +30,7 @@ This repository contains my daily Data Structures and Algorithms practice in Jav
 ## Started On
 
 30 June 2026
+
+# DSA-Journey
+My daily Data Structures and Algorithms practice in Java.
+
