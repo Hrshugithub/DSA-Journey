@@ -11,9 +11,11 @@
 //Input:
 //```java
 //[1, 2, 3, 4, 5]
+
+
 import java.util.ArrayList;
 
-public class Main {
+public class IsSorted {
 
     public static void main(String[] args) {
 
@@ -23,8 +25,9 @@ public class Main {
         nums.add(2);
         nums.add(3);
         nums.add(4);
+        nums.add(5);
 
-        Main obj = new Main();
+        IsSorted obj = new IsSorted();
 
         boolean result = obj.isSorted(nums);
 
