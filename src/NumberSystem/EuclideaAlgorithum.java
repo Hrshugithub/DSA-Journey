@@ -48,7 +48,7 @@ package NumberSystem;
 
 public class EuclideaAlgorithum {
     public static void main(String[] args) {
-        System.out.println(eucli(252,198));
+        System.out.println(eucli(12,6));
     }
     static int eucli(int a,int b){
         if(a%b==0){
