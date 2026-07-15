@@ -47,7 +47,7 @@ package ArrayRecursion;
 
 import java.util.Arrays;
 
-public class CycleSort {
+public class QuickSort {
     static void main() {
         int[] arr={5,4,3,2,1};
         sort(arr,0,arr.length-1);
